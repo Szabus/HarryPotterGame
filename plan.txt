@@ -1,0 +1,174 @@
+
+kell egy karakter, ezzel lesz a "játékos"  //lány lesz, ez egy final XD
+
+skillek
+	-tudás
+	-bátorság
+	-szerencse/ravaszság
+	-social skill
+
+kell egy dobókocka. beállítani a dobásokat
+
+Mugli vagy e vagy sem XD
+	random sorsolás h varázsló e
+	random sorsolás h mennyi pénz van xD (pl ha kviddicsezik, miylen seprűje van)
+	
+vonat -> találkozol mrs weasleyvel
+
+levél a roxfortból, felvettek + tartalmazza h mi történt
+kezdés a sorting hatnél - lehet automatizált vagy manual
+9 vagy 13 kérdés, ha döntetlen a hat megkérdezi melyiket választod
+
+
+tanórák, résztvesz rajtuk
+
+All first-years at Hogwarts must take seven subjects: 
+ Transfiguration, McGalagony
+ Charms Flitzwick, vingardium leviosa:DDDD
+ Potions, Piton
+ History of Magic, Binns
+ Defence Against the Dark Arts, Mógus 
+ Astronomy Aurora Sinistra
+ Herbology. BIMBA
+ 
+ 
+kellenek pontok, ahol bemutatjuk a három karaktert 
+dobókockával kidobod a skilleket, +1 a házhoz tartozó skillhez
+1 dobás, ha nem tetszik az eredmény, várhatsz még egy környit, +2 a dobott összeghez
+
+	Ron: vingárdiumos óra, segítesz e neki - tudás, hollóhát +1 a dobott összeghez
+	Harry: a repülés órán - segítesz e - bátorság, griffendél +1 a dobott összeghez
+	Hermione:átváltozástan, párba állsz e vele - social skill hugrabug +1 a dobott összeghez
+	Bájitaltan - szerencse/ravaszság, mardekár +1 a dobott összeghez
+	
+	
+	dobás a kockával: 1-3 nem túl jó viszony, 4-6 a jó
+	ha hugrabugos vagy, akkor megdobja a viszonyt
+	mardekárnak minusz
+	hollóhátnak meg nem kell mert okosabb XD 
+	
+	//mardekáros ha dob akkor jobbak az esélyei -> ravaszság pl nem dobhat 3nál kisebbet
+
+//Bűbájok megtanulása -> dobókocka 1-2,3-4,5-6 - 1-2 gyengébb de gyorsabb
+
+Amikor használni kell a bűbájt -> ellenfél pontjai 1-2,3-4,5-6 ettől függ h le tudod e győzni
+
+Ha pl segítesz Ronnak, akkor összeadódik a tudásotok//
+
+
+
+ha nem tudsz egy bűbájt és kéne, akkor a gyengélkedőre kerül az adott karakter - trollos, hermione
+ ->külön task, hogy kihozd a gyengélkedőről
+ ->ha nem sikerül, várhatsz, de ez plusz lépés
+ -> az a legjobb ha tudsz minden bűbájt és nincs plusz lépés (score)
+ 
+ 
+
+ 
+ Segítesz Harrynek-> mikor van a meccs, neked kell meggyújtani piton talárját, ha nem tudod, akkor harry leesik és megy a gyengélkedőre
+ ugyanaz mint a hermiones résznél
+	itt segíthet hermione, ha nincs elég bátorságpont
+ 
+
+
+Mikor mentek a köpeny alatt, ha lebuktot (zárolt részleg a könyvtárban) akkor minden karakter bukik - nő a körszám
+	Argus Filch hátráltató karakter
+	dobni, 1-2, akkor lebuksz, a többi átment
+	ha mardekáros vagy akkor ezt megúsztad
+
+Nevilles rész, amikor nem akar tovább engedni, neked kell tudni a bűbájt, ha nem tudod akkor az egyik segítő karakter lemarad(csökkennek az esélyek) - ron marad le
+	megint jön a bűbájos dobás
+	
+	
+	
+	Talárgyújtás Hermione segít, plusz bátorság - griffendéles vagy akkor nem kell segíteni
+	Ron segít a trollosnál, ha hollóhátas vagy akkor nem kell segíteni
+	Nevilles rész - Harry segít, ha mardekáros vagy, akkor kicselezed Nevillet
+	Hagridos rész, ha hugrabugos vagy akkor megvan egyből, különben ki segít? XD -> mindhárommal jóban kell lenni.
+	
+	Segítesz e Hagridnak? Nem, mert sietsz egy órára, Igen, és akkro megtudod, hogy mi kell a kutyához
+	
+	
+	mindegyik kihívásnál ha kisebb a bűbájszinted mint az ellenfélé-> megnézi házanként hogy miylen előnyöd lehet
+		- hugrabug ->ha összeáll egy griffendélessel akkor plusz pont
+		- hollóhát neki megnöveli a bűbájszintet h okosabb
+		- mardekár meg szerencsésebb az ellenféllel szemben
+		- griffendéles -> 
+
+	
+mitől függ, hogy megtanulod a bűbájokat dobsz a kockával
+házak szerint eltérő alap skillek
+
+text fileba tanárok, diákok, az iskola? tantárgyak? 
+	kigondolni mire van szükség
+	
+játékos adatainak kimetnése, 2. évben folytatás
+
+megtanult varázsigék könyvenként
+
+
+lista ötletek: pálca, tanár, diák, varászállat,
+
+2.es ötletek: miylen vérű, megtámad e a baziliszkusz
+
+Hollóhát: 	tudás jó,	social: rossz, 		bátorság: semleges, 	ravaszság: semleges,
+Griffendél: 	tudás:rossz 	social: semleges, 	bátorság: jó, 		ravaszság: semleges,
+Hugrabug: 	tudás:semleges  social: jó, 		bátorság: semleges    	ravaszság: rossz,
+Mardekár: 	tudás:semleges	social:	semleges,	bátorság: rossz,	ravaszság: jó,	
+
+
+4 kihívás
+ Hollóhát
+ 1. a. Ronnal a trollos ->Megmenteni Hermionét
+	-vingardium leviosa -> tudásod 1-6
+	-kidobni a troll szintjét pl 4
+	
+	
+	b. Griffendél
+	ha a tudásod nagyobb vagy egyenlő, nyertél
+    ha nem-> c. Ron segít + 2 bátorsággal
+ 	       ->hugrabug
+	       ->hollohát 
+	       ->mardekár
+           ->griffendél
+		 
+		 
+
+ 2. Kviddics meccs ->Megmenteni Harryt
+  Griffendél
+   
+   a. -kidobod a szükséges bátorság szintet
+   	-megnézi a játékosét, ha nagyobb v egyenlő nyertél
+   
+	Hugrabug
+   b.	ha nem: megnézi a social skillt
+     	c. hermione segít plusz 2 social skillel
+	 hollóhát: 
+	 griffenél:eleve szerencsésebb
+	 hugrabug: social skillt megnézi
+	 mardekár: neki ez nem egy jó feladat XD 
+	 
+	 
+ 3. Könyvtár zárolt részleg
+ Mardekár
+ 
+  a. - kidobod a szerencsét, meg Friccsét xddddddd
+ 
+	b. Hollóhát
+  ha nem jó: tudást néz
+	c. + 2 tudáspont, ismered a könyvtárat
+   - mardekárnak 
+   - hollohát
+   -hugrabug Mrs Norris kedveli
+   - griffendél
+   
+  4. Neville
+  Hugrabug
+
+	a. - megnézi a social skillt,
+	
+     b. Mardekár	
+	c. nem talál célba Neville átka + 2 szerencse
+
+   Hagrid grandChallange
+   ha nincs meg valamelyik kihívás, visszaküldi az adott pályára.

@@ -1,5 +1,7 @@
 package storyflow;
 
+import model.Character;
+import model.House;
 import model.Player;
 import utils.Printer;
 import utils.TypeWriter;

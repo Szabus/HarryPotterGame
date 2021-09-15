@@ -1,17 +1,22 @@
 package model;
 
-public class Player {
+public class Player extends Character{
 
-    private String name;
-    private House house;
+
     private int score = 20;
-    private int knowledge;
-    private int bravery;
-    private int trickery;
-    private int friendliness;
+
     private boolean hasHermione = false;
     private boolean hasRon = false;
     private boolean hasHarry = false;
+
+    public Player(String name, House house, int knowledge, int bravery, int trickery, int friendliness,
+                  int score, boolean hasHermione, boolean hasRon, boolean hasHarry) {
+        super(name, house, knowledge, bravery, trickery, friendliness);
+        this.score = score;
+        this.hasHermione = hasHermione;
+        this.hasRon = hasRon;
+        this.hasHarry = hasHarry;
+    }
 
     public Player() {
     }
@@ -24,62 +29,23 @@ public class Player {
         }
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public House getHouse() {
-        return house;
-    }
 
-    public void setHouse(House house) {
-        this.house = house;
-    }
+
+
+
 
     public int getScore() {
 
         return score;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public void setScore(int score) {
         this.score = score;
     }
 
-    public void setKnowledge(int knowledge) {
-        this.knowledge = knowledge;
-    }
 
-    public void setBravery(int bravery) {
-        this.bravery = bravery;
-    }
-
-    public void setTrickery(int trickery) {
-        this.trickery = trickery;
-    }
-
-    public void setFriendliness(int friendliness) {
-        this.friendliness = friendliness;
-    }
-
-    public int getKnowledge() {
-        return knowledge;
-    }
-
-    public int getBravery() {
-        return bravery;
-    }
-
-    public int getTrickery() {
-        return trickery;
-    }
-
-    public int getFriendliness() {
-        return friendliness;
-    }
 
     public boolean isHasHermione() {
         return hasHermione;

@@ -1,5 +1,6 @@
 package storyflow;
 
+import model.Character;
 import model.House;
 import model.Player;
 import utils.Printer;
@@ -21,6 +22,9 @@ public class Learning {
             player.setKnowledge(Controller.nextRound(player, Printer.secondRound(), player.getKnowledge()));
             Printer.printNewSkill(player.getKnowledge());
         }
+        Character ron = Controller.createCharacter("Ron", House.GRYFFINDOR);
+
+
     }
 
     public static void getBravery(Player player) throws InterruptedException {

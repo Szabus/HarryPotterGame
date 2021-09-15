@@ -1,7 +1,9 @@
 package storyflow;
 
+import model.Character;
 import model.House;
 import model.Player;
+import utils.Utils;
 
 import java.util.Random;
 
@@ -27,5 +29,17 @@ public class Controller {
             player.nextRound();
             return skill+1;
         }return skill;
+    }
+
+    public static Character createCharacter(String name, House house){
+        Character character = new Character();
+        character.setName(name);
+        character.setHouse(house);
+        character.setKnowledge(Utils.diceRoller());
+        character.setBravery(Utils.diceRoller());
+        character.setTrickery(Utils.diceRoller());
+        character.setFriendliness(Utils.diceRoller());
+
+        return character;
     }
 }

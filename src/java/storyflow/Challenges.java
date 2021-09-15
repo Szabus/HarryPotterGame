@@ -20,6 +20,7 @@ Challenges {
             TypeWriter.typeWriter("The troll fainted by your incredible Vingardium Leviosa spell use.");
             System.out.println();
             player.setHasHermione(true);
+
         } else {
             player.nextRound();
             if (player.getBravery() >= trollPoint) {

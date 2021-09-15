@@ -65,7 +65,7 @@ public class StoryFlow {
             } else {
                 System.out.println("Professor Quirrell got the sorcerer's stone, Voldemort returned. GAME OVER");
             }
-            Printer.printTheEnd("HarryPotterGame1/src/resources/hp.txt");
+            Printer.printTheEnd("src/resources/hp.txt");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

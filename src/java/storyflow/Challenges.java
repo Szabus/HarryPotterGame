@@ -5,7 +5,8 @@ import utils.Printer;
 import utils.TypeWriter;
 import utils.Utils;
 
-public class Challenges {
+public class
+Challenges {
 
     public static void trollChallenge(Player player) throws InterruptedException {
 

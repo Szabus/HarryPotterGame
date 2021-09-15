@@ -31,6 +31,12 @@ public class Controller {
         }return skill;
     }
 
+    public static void nextGame(String answer){
+        if (answer.equalsIgnoreCase("y")){
+            StoryFlow.run();
+        }
+    }
+
     public static Character createCharacter(String name, House house){
         Character character = new Character();
         character.setName(name);

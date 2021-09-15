@@ -204,4 +204,25 @@ Challenges {
         Printer.playerPoints(player);
         System.out.println();
     }
+
+    public static void bimbaChallenge(Player player){
+
+        int bimbaScore=Utils.diceRoller() + Utils.diceRoller();
+
+        TypeWriter.typeWriter("Bimba trap point: " + bimbaScore);
+        System.out.println();
+
+        int attackPower = player.getKnowledge() + player.getHelpTeam().get(2).getKnowledge();
+
+        if(attackPower >= bimbaScore){
+            System.out.println("win");
+            player.nextRound();
+        } else{
+            System.out.println("Game over");
+            System.out.println("Want to play a new game? press y or n");
+            String answer = Utils.userInput();
+            Controller.nextGame(answer);
+
+        }
+    }
 }

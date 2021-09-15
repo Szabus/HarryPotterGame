@@ -23,6 +23,7 @@ public class Learning {
             Printer.printNewSkill(player.getKnowledge());
         }
         Character ron = Controller.createCharacter("Ron", House.GRYFFINDOR);
+        player.getHelpTeam().add(ron);
 
 
     }
@@ -35,6 +36,8 @@ public class Learning {
             player.setBravery(Controller.nextRound(player, Printer.secondRound(), player.getBravery()));
             Printer.printNewSkill(player.getBravery());
         }
+        Character harry = Controller.createCharacter("Harry", House.GRYFFINDOR);
+        player.getHelpTeam().add(harry);
     }
 
     public static void getTrickery(Player player) throws InterruptedException {
@@ -55,5 +58,7 @@ public class Learning {
             player.setFriendliness(Controller.nextRound(player, Printer.secondRound(), player.getFriendliness()));
             Printer.printNewSkill(player.getFriendliness());
         }
+        Character hermi = Controller.createCharacter("Hermione", House.GRYFFINDOR);
+        player.getHelpTeam().add(hermi);
     }
 }

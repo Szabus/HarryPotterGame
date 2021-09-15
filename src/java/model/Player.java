@@ -1,5 +1,8 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player extends Character{
 
 
@@ -8,6 +11,8 @@ public class Player extends Character{
     private boolean hasHermione = false;
     private boolean hasRon = false;
     private boolean hasHarry = false;
+
+    private List<Character>helpTeam;
 
     public Player(String name, House house, int knowledge, int bravery, int trickery, int friendliness,
                   int score, boolean hasHermione, boolean hasRon, boolean hasHarry) {
@@ -19,6 +24,7 @@ public class Player extends Character{
     }
 
     public Player() {
+        helpTeam = new ArrayList<>();
     }
 
     public void nextRound() {
@@ -69,5 +75,13 @@ public class Player extends Character{
 
     public void setHasHarry(boolean hasHarry) {
         this.hasHarry = hasHarry;
+    }
+
+    public List<Character> getHelpTeam() {
+        return helpTeam;
+    }
+
+    public void setHelpTeam(List<Character> helpTeam) {
+        this.helpTeam = helpTeam;
     }
 }

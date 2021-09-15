@@ -1,5 +1,7 @@
 package storyflow;
 
+import model.Character;
+import model.House;
 import model.Player;
 import utils.Printer;
 import utils.TypeWriter;
@@ -19,7 +21,8 @@ Challenges {
             Thread.sleep(1000);
             TypeWriter.typeWriter("The troll fainted by your incredible Vingardium Leviosa spell use.");
             System.out.println();
-            player.setHasHermione(true);
+
+
 
         } else {
             player.nextRound();
@@ -28,15 +31,16 @@ Challenges {
                 Thread.sleep(1000);
                 TypeWriter.typeWriter("You defeated the troll with your bravery.");
                 System.out.println();
-                player.setHasHermione(true);
+
             } else {
                 player.nextRound();
                 if (player.getBravery() + 2 >= trollPoint) {
                     player.nextRound();
                     TypeWriter.typeWriter("Ron helped you with the Vingardium Leviosa spell.");
                     System.out.println();
-                    player.setHasHermione(true);
+
                 } else {
+                    player.setHasHermione(false);
                     TypeWriter.typeWriter("Unfortunately you failed the challenge, " +
                             "Hermione was taken to the Hospital Wing.");
                     System.out.println();
@@ -58,7 +62,7 @@ Challenges {
             Thread.sleep(1000);
             TypeWriter.typeWriter("You lit his rob with amazing bravery. Gryffindor wins! ");
             System.out.println();
-            player.setHasHarry(true);
+
         } else {
             player.nextRound();
             if (player.getFriendliness() >= pitonPoint) {
@@ -67,7 +71,7 @@ Challenges {
                 TypeWriter.typeWriter("Even if you are not the bravest, you do everything " +
                         "for help your friends including to curse one of your professor. Gryffindor wins!");
                 System.out.println();
-                player.setHasHarry(true);
+
             } else {
                 player.nextRound();
                 if (player.getFriendliness() + 2 >= pitonPoint) {
@@ -77,8 +81,9 @@ Challenges {
                           Hermione lit Professor Snape rob, you help her to distract the others attention
                           Gryffindor wins!""");
                     System.out.println();
-                    player.setHasHarry(true);
+
                 } else {
+                    player.setHasHarry(false);
                     Thread.sleep(1000);
                     TypeWriter.typeWriter("Unfortunately you failed the challenge, Harry fell of hir broom.\" +\n" +
                             "                            \"He was taken to the Hospital Wing");
@@ -101,7 +106,8 @@ Challenges {
             Thread.sleep(1000);
             TypeWriter.typeWriter("With a clever trick, you made fool of Flich.");
             System.out.println();
-            player.setHasRon(true);
+
+
         } else {
             player.nextRound();
             Thread.sleep(1000);
@@ -110,7 +116,7 @@ Challenges {
                 TypeWriter.typeWriter("You spend a lot of time in the library, you know every bookshelves and corners." +
                         "You can easily hide.");
                 System.out.println();
-                player.setHasRon(true);
+
             } else {
                 player.nextRound();
                 if (player.getKnowledge() + 2 >= filchAndMrsNorrisPoint) {
@@ -118,8 +124,9 @@ Challenges {
                     Thread.sleep(1000);
                     TypeWriter.typeWriter( "You hide under Harry's invisibility cloak, Flich can't find you.");
                     System.out.println();
-                    player.setHasRon(true);
+
                 } else {
+                    player.setHasRon(false);
                     Thread.sleep(1000);
                     TypeWriter.typeWriter("""
                             Unfortunately you failed the challenge, Ron was taken by Mrs. Norris

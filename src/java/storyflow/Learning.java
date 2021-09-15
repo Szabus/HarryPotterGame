@@ -24,6 +24,7 @@ public class Learning {
         }
         Character ron = Controller.createCharacter("Ron", House.GRYFFINDOR);
         player.getHelpTeam().add(ron);
+        player.setHasRon(true);
 
 
     }
@@ -38,6 +39,7 @@ public class Learning {
         }
         Character harry = Controller.createCharacter("Harry", House.GRYFFINDOR);
         player.getHelpTeam().add(harry);
+        player.setHasHarry(true);
     }
 
     public static void getTrickery(Player player) throws InterruptedException {
@@ -60,5 +62,6 @@ public class Learning {
         }
         Character hermi = Controller.createCharacter("Hermione", House.GRYFFINDOR);
         player.getHelpTeam().add(hermi);
+        player.setHasHermione(true);
     }
 }
